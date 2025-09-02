@@ -1,0 +1,59 @@
+name: User Story
+description: Create a user story (Scrum)
+title: "[Story]: <short title>"
+labels: ["feature"]
+assignees: []
+body:
+  - type: input
+    id: as
+    attributes:
+      label: As a
+      description: Persona (e.g., Customer, Admin, Attendant)
+      placeholder: Customer
+    validations:
+      required: true
+  - type: input
+    id: i_want
+    attributes:
+      label: I want
+      description: Action the user wants to perform
+      placeholder: apply a coupon
+    validations:
+      required: true
+  - type: input
+    id: so_that
+    attributes:
+      label: So that
+      description: Benefit or outcome
+      placeholder: to get a discount on my order
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance Criteria (Given/When/Then)
+      description: List each scenario on a new line
+      placeholder: |
+        Given a cart with items
+        When I enter a valid coupon
+        Then I see 10% off and coupon marked as applied
+    validations:
+      required: true
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      options:
+        - High
+        - Medium
+        - Low
+    validations:
+      required: false
+  - type: input
+    id: points
+    attributes:
+      label: Story Points
+      description: 1 (S), 3 (M), 5 (L)
+      placeholder: "3"
+    validations:
+      required: false
