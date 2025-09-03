@@ -1,7 +1,6 @@
-# Pizzaria Deliziosa — Scrum Lab (UC9 • Senac)
+# Pizzaria Deliziosa — Scrum Lab
 
-> Repositório de apoio à aula prática de Scrum da UC9 – Desenvolver Algoritmos. Aqui você encontra o briefing do
-> produto, templates de histórias, script para semear o backlog e o roteiro de trabalho do time.
+> Guia prático para você executar um ciclo Scrum em um produto fictício (App da Pizzaria). Aqui você encontra o briefing do produto, templates de histórias, script para semear o backlog e um roteiro de trabalho do time.
 
 ## Sumário
 
@@ -14,8 +13,6 @@
 - Convenções (labels, branches, commits)
 - Critérios de Aceite — exemplo
 - Teste de mesa — exemplo
-- Roteiro da aula
-- Métricas didáticas
 - Troubleshooting (gh CLI)
 - Licença e Créditos
 
@@ -23,9 +20,7 @@
 
 ## 📌 Objetivo
 
-Vivenciar um ciclo Scrum completo (Sprint curta) num produto fictício — App da Pizzaria — passando por Briefing →
-Backlog → Planning → Execução → Review → Retro. Ao final, cada squad terá um increment demonstrável e artefatos
-organizados no GitHub.
+Vivenciar um ciclo Scrum completo (Sprint curta) no App da Pizzaria — passando por Briefing → Backlog → Planning → Execução → Review → Retro. Ao final, você terá um increment demonstrável e artefatos organizados no GitHub.
 
 ---
 
@@ -53,18 +48,17 @@ Como está neste projeto:
 
 ---
 
-## 🚀 Primeiros passos (5–10 min)
+## 🚀 Primeiros passos
 
 1) Pré‑requisitos
 
 - Conta no GitHub e GitHub CLI instalado (gh --version).
-- Estar autenticado: gh auth login → deve aparecer “Logged in” em gh auth status.
-- Issues habilitadas no repositório (se não puder habilitar, peça ao dono do repo).
+- Estar autenticado: gh auth login → verifique “Logged in” em gh auth status.
+- Issues habilitadas no repositório (habilite em Settings se necessário).
 
 2) Briefing do produto
 
-- O briefing de referência está em docs/briefing-pizzaria-deliziosa.md. Compare o briefing do seu squad com esse modelo
-  ao final da aula.
+- O briefing de referência está em docs/briefing-pizzaria-deliziosa.md. Use como base para montar seu briefing.
 
 3) Template de histórias (Issue Form)
 
@@ -72,10 +66,8 @@ Como está neste projeto:
 
 4) Quadro do GitHub Projects
 
-- Crie um Project (template Team planning) com as colunas: Backlog → Selected for Sprint → In Progress → In Review →
-  Done.
-- Campos úteis: Story Points (Number), Priority (High/Medium/Low), Sprint (Text), Area (Select:
-  Catalog/Cart/Checkout/Orders/Admin).
+- Crie um Project (template “Team planning”) com as colunas: Backlog → Selected for Sprint → In Progress → In Review → Done.
+- Campos úteis: Story Points (Number), Priority (High/Medium/Low), Sprint (Text), Area (Select: Catalog/Cart/Checkout/Orders/Admin).
 
 ---
 
@@ -111,19 +103,18 @@ ex.: 2.78.0) e contorna limitações de gh issue create --json.
 
 ## 🧭 Workflow (Scrum)
 
-Papéis (tradução e explicação breves):
+Papéis (resumo):
 
 - PO (Product Owner): prioriza o backlog, maximiza valor do produto e aceita/recusa entregas.
 - SM (Scrum Master): facilita cerimônias, remove impedimentos e protege o foco do time.
 - Dev Team: planeja, estima, implementa, testa e demonstra o increment ao final da Sprint.
 
-Cerimônias (na aula):
+Cerimônias:
 
-- Sprint Planning (15 min) — selecionar 3–5 histórias (8–13 pts) e quebrar em tarefas.
-- Execução (50 min) — mover cards no Project e realizar Dailies a cada 10 min (30–60s por pessoa: fiz, farei,
-  impedimentos).
-- Review (15 min) — demo do que está Done (atendendo DoD e critérios de aceite).
-- Retrospective (10 min) — quadro Parar / Continuar / Começar e 1 melhoria acionável.
+- Sprint Planning — selecionar histórias priorizadas e quebrar em tarefas.
+- Execução — mover cards no Project; realizar Dailies objetivas (o que fiz, o que farei, impedimentos).
+- Review — demonstração do que está Done (atendendo DoD e critérios de aceite).
+- Retrospective — identificar pontos de Parar / Continuar / Começar e definir melhorias acionáveis.
 
 Artefatos:
 
@@ -187,10 +178,8 @@ Then I see 10% off on the total and the coupon is marked as applied
 ---
 
 ## 🧩 Troubleshooting (gh CLI)
-
-- GraphQL: Could not resolve to a Repository → use o slug real owner/repo ou gh repo view --json nameWithOwner -q
-  .nameWithOwner para auto‑detectar.
-- unknown flag: --json em gh issue create → o script já usa gh api e não depende desse recurso.
+- GraphQL: Could not resolve to a Repository → use o slug real owner/repo ou `gh repo view --json nameWithOwner -q .nameWithOwner` para auto‑detectar.
+- unknown flag: --json em `gh issue create` → o script já usa `gh api` e não depende desse recurso.
 - Issues desabilitadas → Settings → Features → Issues (ou deixe o script habilitar automaticamente).
 - Sem permissão para criar labels/issues → verifique permissões no repositório.
 
@@ -198,9 +187,8 @@ Then I see 10% off on the total and the coupon is marked as applied
 
 ## 📃 Licença
 
-Uso educacional no contexto da UC9 (Senac).
+Uso no contexto do projeto.
 
 ## 🤝 Créditos
 
-Planejamento didático baseado no plano de aula da UC9, com foco em prática de Scrum, critérios de aceite e teste de
-mesa.
+Planejamento baseado em prática de Scrum com foco em critérios de aceite e teste de mesa.

@@ -1,7 +1,6 @@
-# Dominando o Briefing — Guia Completo e Didático (UC9 • Senac)
+# Dominando o Briefing — Guia Completo e Prático
 
-> Objetivo: transformar **ideias vagas** em **requisitos claros**, reduzir retrabalho e criar uma ponte direta entre *
-*briefing → backlog → implementação**.
+> Objetivo: transformar ideias vagas em requisitos claros, reduzir retrabalho e criar uma ponte direta entre briefing → backlog → implementação.
 
 ---
 
@@ -11,9 +10,9 @@
 *regras**, **requisitos** e **restrições** antes de qualquer linha de código. Um bom briefing:
 
 - Evita mal-entendidos e alinha expectativas.
-- Converte desejos em **requisitos mensuráveis**.
-- Antecipaa riscos e reduz retrabalho.
-- Gera insumos para o **Product Backlog** (Scrum), **casos de uso** (RUP) ou **features** (FDD).
+- Converte desejos em requisitos mensuráveis.
+- Antecipar riscos e reduzir retrabalho.
+- Gera insumos para o Product Backlog (Scrum), casos de uso (RUP) ou features (FDD).
 
 **Antipadrões comuns sem briefing:**
 
@@ -25,8 +24,7 @@
 
 ## 2) Estrutura Essencial do Briefing (com exemplos)
 
-Organize o briefing em blocos. A seguir, um guia com **perguntas assertivas** e **exemplos práticos** (use em entrevista
-com o cliente).
+Organize o briefing em blocos. A seguir, um guia com perguntas assertivas e exemplos práticos (use em entrevista com o cliente/usuário).
 
 ### 2.1 Contexto e Objetivo
 
@@ -180,23 +178,7 @@ Then vejo 10% de desconto no total e o cupom marcado como aplicado
 
 ---
 
-## 5) Atividades de Sala (aprendizagem ativa)
-
-### 5.1 Sprint Zero — Produza o Briefing (30–45 min)
-
-- **Duplas** entrevistam “o cliente” com os blocos da seção 4.1.
-- Entregável: 1 página com objetivo, 8+ regras, RF/RNF priorizados, riscos e KPIs.
-
-### 5.2 Converter em Backlog (15–20 min)
-
-- Escreva 8–12 **User Stories** + critérios **Given/When/Then**.
-- Estime (1/3/5) e aplique MoSCoW.
-
-> **Metacognição:** finalize com “o que aprendi / o que ainda confunde / próximo passo”.
-
----
-
-## 6) Exemplo de Conversão para Código (didático)
+## 5) Exemplo de Conversão para Código (didático)
 
 **Pseudocódigo:**
 
@@ -225,16 +207,16 @@ export function calcOrderTotal(order) {
 
 ---
 
-## 7) Cronograma e Marcos (exemplo)
+## 6) Cronograma e Marcos (exemplo)
 
-- **Sprint 1:** Catálogo + Carrinho
-- **Sprint 2:** Checkout + Pagamento
-- **Sprint 3:** Pedidos + Admin + Métricas
-- **Go-Live (soft launch):** janela reduzida e suporte próximo
+- Sprint 1: Catálogo + Carrinho
+- Sprint 2: Checkout + Pagamento
+- Sprint 3: Pedidos + Admin + Métricas
+- Go-Live (soft launch): janela reduzida e suporte próximo
 
 ---
 
-## 8) Glossário Rápido
+## 7) Glossário Rápido
 
 - **Briefing:** entrevista/guia para levantar contexto, regras e requisitos.
 - **RB:** regra de negócio (política/limite do negócio).
@@ -247,20 +229,7 @@ export function calcOrderTotal(order) {
 
 ---
 
-## 9) Rubrica Formativa (0–2 por critério)
+## 8) Arquivo Modelo
+Use as tabelas e checklists desta página para conduzir o briefing real com seu cliente/usuário. Ajuste vocabulário e exemplos ao domínio específico (saúde, educação, varejo, financeiro etc.).
 
-1) Briefing claro e completo
-2) Regras de negócio testáveis
-3) RF/RNF priorizados e coerentes
-4) Backlog com histórias e critérios robustos
-5) Teste de mesa cobrindo casos normais e de borda
-
----
-
-## 10) Arquivo Modelo (copiar/colar em Notion, Docs ou Markdown)
-
-Use as tabelas e checklists desta página para conduzir o **briefing real** com seu cliente/usuário. Ajuste vocabulário e
-exemplos ao domínio específico (saúde, educação, varejo, financeiro etc.).
-
-> **Essência:** Pergunte “por quê” e “como saberemos que deu certo?”. Converta respostas em **requisitos mensuráveis** e
-**critérios de aceite**.
+Essência: pergunte “por quê” e “como saberemos que deu certo?”. Converta respostas em requisitos mensuráveis e critérios de aceite.

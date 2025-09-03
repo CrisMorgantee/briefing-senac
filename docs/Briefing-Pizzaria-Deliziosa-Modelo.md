@@ -1,6 +1,6 @@
 # Briefing — Pizzaria Deliziosa (Modelo de Referência)
 
-> Documento de **briefing modelo** para comparação com os trabalhos dos alunos. Contém apenas os pontos essenciais de alinhamento de negócio e produto para o MVP.
+> Documento de referência para você montar e validar o seu briefing. Contém os pontos essenciais de alinhamento de negócio e produto para o MVP.
 
 ---
 

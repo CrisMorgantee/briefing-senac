@@ -53,7 +53,7 @@ Catálogo (sabores/tamanhos/adicionais), Carrinho, Checkout (endereço + pagamen
 Pagamentos (gateway + PIX), CEP/Mapa (validação e zona), Mensageria (WhatsApp/SMTP).
 
 ## 9) Restrições
-Orçamento enxuto; equipe pequena (turma); infra simples; sem multilojas no MVP.
+Orçamento enxuto; equipe pequena; infra simples; sem multilojas no MVP.
 
 ## 10) KPIs
 Checkout < 90s; conversão > 3,5%; ticket médio +10%; NPS > 70.
